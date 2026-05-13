@@ -139,8 +139,7 @@ footer p {
 }
 
 .history {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
