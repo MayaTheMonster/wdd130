@@ -145,9 +145,13 @@ footer p {
     align-items: center;
 }
 
-section figure {
+.adventure div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+figure figcaption {
+    text-align: center;
 }
 
 section figure img {
