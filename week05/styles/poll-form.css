@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    background-color: aliceblue;
+}
+
+fieldset {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid darkgrey;
+}
+
+label {
+    text-align: center;
+    padding: 4px;
+}
+
+legend {
+    color: #000080;
+}
+
+input,
+select,
+textarea {
+    padding: 4px;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+    width: 1.1rem;
+    height: 1.1rem;
+    justify-content: center;
+}
+
+button {
+    background-color: #000080;
+    color: #eeeeee;
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    border: none;
+}
+
+button:hover {
+    background-color: #000048;
+}
+
+form {
+    background-color: #eeeeee;
+    max-width: 600px;
+    margin: 7px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    display: grid;
+}
+
+header {
+    text-align: center;
+    padding: 13px 0;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: lightblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+}
+
+.form-item {
+    align-items: center;
+    text-align: left;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+footer {
+    padding: 13px 0;
+    text-align: center;
+    width: 600px;
+    margin: 7px auto;
+    border-top: 1px solid black;
+}
